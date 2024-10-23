@@ -1,0 +1,129 @@
+margin-top: 17px;
+}
+.ul3 {
+  width: 339px;
+  height: 1px;
+  margin-top: 5px;
+  color: #E0E0E0;
+  font-weight: 700;
+  font-family: Heebo;
+  padding-right: 18px;
+}
+.news4 {
+  width: 339px;
+  height: 204px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.topic4 {
+  width: 312px;
+  height: 38px;
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.19px;
+  text-align: left;
+  color: #21243D;
+}
+.date4 {
+  width: 89px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  margin-top: 5px;
+}
+.st4 {
+  height: 13px;
+  margin-left: 103px;
+  margin-top: -24px;
+}
+.author4 {
+  width: 146px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #8695A4;
+  margin-left: 120px;
+  margin-top: -13px;
+}
+.des4 {
+  width: 339px;
+  height: 96px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: 21243D;
+  margin-top: 17px;
+}
+.ul4 {
+  width: 339px;
+  height: 1px;
+  margin-top: 5px;
+  color: #E0E0E0;
+  font-weight: 700;
+  font-family: Heebo;
+  padding-right: 18px;
+}
+.footer {
+  height: 182px;
+  width: 375px;
+  position: absolute;
+  top: 1079px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 26px;
+}
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+.insta {
+  width: 30px;
+  height: 30px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+.in {
+  width: 30px;
+  height: 30px;
+}
+.brand {
+  width: 238px;
+  height: 30px;
+  display: flex;
+  gap: 35px;
+  margin-left: 71px;
+}
+.cr {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+  text-align: center;
+  color: #21243D;
+  width: 222px;
+  height: 21px;
+  margin-left: 74px;
+}
+.fa-circle-up:hover {
+  outline: none;
+}
+.up {
+  margin-left: 15px;
+  margin-top: -40px;
+}
+.up a {
+  color: #000;
+}
