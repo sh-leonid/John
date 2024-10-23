@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  scroll-behavior: smooth;
+}
+body {
+  background: #000;
+}
+.cont {
+  position: relative;
+  width: 375px;
+  height: 1261px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline: 15px;
+}
+i {
+  font-size: 30px;
+}
+i:hover{
+  outline: 2px dashed #EC7C26;
+}
+.fa-circle-down:hover {
+  outline: none;
+}
+.down {
+  position: absolute;
+  left: 15px;
+}
+.down a {
+  color: #000;
+}
+.nav {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 100vh;
+  background: #123456;
+  list-style-type: none;
+}
+.nav *{
+  cursor: pointer;
+}
+.nav *:hover{
+  color: #308446;
+}
+.white-icon {
+  color: #fff;
+}
+.nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.blog {
+  width: 62px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 24px;
+}
+.news1 {
+  width: 339px;
+  height: 204px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.topic1 {
+  width: 312px;
+  height: 38px;
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.19px;
+  text-align: left;
+  color: #21243D;
+}
+.date1 {
+  width: 89px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  margin-top: 5px;
+}
+.st1 {
+  height: 13px;
+  margin-left: 103px;
+  margin-top: -24px;
+}
+.author1 {
+  width: 146px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #8695A4;
+  margin-left: 120px;
+  margin-top: -13px;
+}
+.des1 {
+  width: 339px;
+  height: 96px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: 21243D;
+  margin-top: 17px;
+}
+.ul1 {
+  width: 339px;
+  height: 1px;
+  margin-top: 5px;
+  color: #E0E0E0;
+  font-weight: 700;
+  font-family: Heebo;
+  padding-right: 18px;
+}
+.news2 {
+  width: 339px;
+  height: 204px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.topic2 {
+  width: 312px;
+  height: 38px;
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.19px;
+  text-align: left;
+  color: #21243D;
+}
+.date2 {
+  width: 89px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  margin-top: 5px;
+}
+.st2 {
+  height: 13px;
+  margin-left: 103px;
+  margin-top: -24px;
+}
+.author2 {
+  width: 146px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #8695A4;
+  margin-left: 120px;
+  margin-top: -13px;
+}
+.des2 {
+  width: 339px;
+  height: 96px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: 21243D;
+  margin-top: 17px;
+}
+.ul2 {
+  width: 339px;
+  height: 1px;
+  margin-top: 5px;
+  color: #E0E0E0;
+  font-weight: 700;
+  font-family: Heebo;
+  padding-right: 18px;
+}
+.news3 {
+  width: 339px;
+  height: 204px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.topic3 {
+  width: 312px;
+  height: 38px;
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.19px;
+  text-align: left;
+  color: #21243D;
+}
+.date3 {
+  width: 89px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  margin-top: 5px;
+}
+.st3 {
+  height: 13px;
+  margin-left: 103px;
+  margin-top: -24px;
+}
+.author3 {
+  width: 146px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #8695A4;
+  margin-left: 120px;
+  margin-top: -13px;
+}
+.des3 {
+  width: 339px;
+  height: 96px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: 21243D;
