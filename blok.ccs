@@ -1,0 +1,109 @@
+margin-top: 17px;
+  margin-left: 18px;
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #21243D;
+  height: 30px;
+  width: 244px;
+}
+.y {
+  height: 25px;
+  width: 62px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  background: #142850;
+  border-radius: 16px;
+  color: #FFFFFF;
+  margin-left: 18px;
+  margin-top: 16px;
+}
+.db {
+  width: 78px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 102px;
+  margin-top: -24px;
+  color: #8695A4;
+}
+.amet {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  width: 344px;
+  height: 96px;
+  margin-top: 24px;
+  margin-left: 18px;
+}
+.e {
+  width: 339px;
+  margin-left: 18px;
+  color: #E0E0E0;
+}
+.footer {
+  height: 182px;
+  width: 375px;
+  position: absolute;
+  top: 1983px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 26px;
+}
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+.insta {
+  width: 30px;
+  height: 30px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+.in {
+  width: 30px;
+  height: 30px;
+}
+.brand {
+  width: 238px;
+  height: 30px;
+  display: flex;
+  gap: 35px;
+  margin-left: 72px;
+}
+.cr {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+  text-align: center;
+  margin-left: -5px;
+  color: #21243D;
+  width: 222px;
+  height: 21px;
+  margin-left: 74px;
+}
+.fa-circle-up:hover {
+  outline: none;
+}
+.up {
+  margin-left: 15px;
+  margin-top: -40px;
+}
+.up a {
+  color: #000;
+}
