@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root{
+  scroll-behavior: smooth;
+}
+body {
+  background: #000;
+}
+.cont {
+  position: relative;
+  width: 375px;
+  height: 1261px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline: 15px;
+}
+.more {
+  margin-top: 10px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+}
+.more a {
+  color:#000;
+}
+i {
+  font-size: 30px;
+}
+i:hover{
+  outline: 2px dashed #EC7C26;
+}
+.fa-circle-down:hover {
+  outline: none;
+}
+.down {
+  margin-left: 15px;
+}
+.down a {
+  color: #000;
+}
+.fa-bars {
+  position: absolute;
+  right: 15px;
+}
+.nav {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 100vh;
+  background: #123456;
+  list-style-type: none;
+}
+.nav *{
+  cursor: pointer;
+}
+.nav *:hover{
+  color: #308446;
+}
+.white-icon {
+  color: #fff;
+}
+.nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.work {
+  width: 70px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 18px;
+}
+.btc {
+  width: 339px;
+  height: 230px;
+  border-radius: 6px;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.dd {
+  margin-top: 17px;
+  margin-left: 18px;
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #21243D;
+  height: 30px;
+  width: 244px;
+}
+.y {
+  height: 25px;
+  width: 62px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  background: #142850;
+  border-radius: 16px;
+  color: #FFFFFF;
+  margin-left: 18px;
+  margin-top: 16px;
+}
+.db {
+  width: 78px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 102px;
+  margin-top: -24px;
+  color: #8695A4;
+}
+.amet {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  width: 344px;
+  height: 96px;
+  margin-top: 24px;
+  margin-left: 18px;
+}
+.ul {
+  width: 339px;
+  padding-inline: 16px;
+  color: #E0E0E0;
+}
+.amaz {
+  width: 339px;
+  height: 230px;
+  border-radius: 6px;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.dlp {
+  margin-top: 17px;
+  margin-left: 18px;
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #21243D;
+  height: 30px;
+  width: 273px;
+}
+.y1 {
+  height: 25px;
+  width: 62px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  background: #142850;
+  border-radius: 16px;
+  color: #FFFFFF;
+  margin-left: 18px;
+  margin-top: 16px;
+}
+.ws {
+  width: 78px;
+  height: 24px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 102px;
+  margin-top: -24px;
+  color: #8695A4;
+}
+.amet1 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;
+  width: 344px;
+  height: 96px;
+  margin-top: 24px;
+  margin-left: 18px;
+}
+.ul1 {
+  width: 339px;
+  padding-inline: 16px;
+  color: #E0E0E0;
+}
+.footer {
+  height: 182px;
+  width: 375px;
+  position: absolute;
+  top: 1079px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 26px;
+}
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+.insta {
+  width: 30px;
+  height: 30px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+.in {
+  width: 30px;
+  height: 30px;
+}
+.brand {
+  width: 225px;
+  height: 30px;
+  display: flex;
+  gap: 35px;
+  margin-left: 72px;
+}
+.cr {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+  text-align: center;
+  color: #21243D;
+  width: 222px;
+  height: 21px;
+  margin-left: 74px;
+}
+.fa-circle-up:hover {
+  outline: none;
+}
+.up {
+  margin-left: 15px;
+  margin-top: -40px;
+}
+.up a {
+  color: #000;
+}
