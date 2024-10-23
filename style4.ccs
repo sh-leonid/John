@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style2.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+</head> 
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+
+<div class="cont">
+  <div class="header">
+    <div class="more" id="ho"><a href="index3.html"><i class="fa-solid fa-circle-info"></i></a></div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    <ul class="nav">
+      <i class="fa-solid fa-x white-icon" onclick="closeMenu()"></i>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="index1.html">Our Blog</a></li>
+      <li><a href="index2.html">Our Work</a></li>
+    </ul>
+  </div>
+  <div class="down"><a href="#lo"><i class="fa-solid fa-circle-down"></i></a></div>
+  <div class="work">Work</div>
+   <div class="work-list">
+      <div class="mono"> <img class="btc" src="./dd.png" alt=""></div>
+      <div class="dd">Designing Dashboards</div>
+      <div class="y">2020</div>
+      <div class="db">Dashboard</div>
+      <div class="amet">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+      <div class="ul">___________________________________________</div>
+    </div>
+  <div class="work-list1">
+      <div class="mono"> <img class="amaz" src="./dlp.png" alt=""></div>
+      <div class="dlp">Designing Landing pages</div>
+      <div class="y1">2020</div>
+      <div class="ws">Website</div>
+      <div class="amet1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+      <div class="ul1">___________________________________________</div>
+    </div>
+  <div class="footer">
+    <div class="brand">
+       <div class="facebook">
+         <img class="facebook" src="./fb.png" alt="">
+       </div>
+      <div class="insta">
+        <img class="insta" src="./insta.png" alt="">
+      </div>
+      <div class="twitter">
+        <img class="twitter" src="./twitter.png" alt="">
+      </div>
+      <div class="in">
+        <img class="in" src="./in.png" alt="">
+      </div>
+    </div>
+    <div class="cr" id="lo">Copyright ©2020 All rights reserved </div>
+    <div class="up"><a href="#ho"><i class="fa-solid fa-circle-up"></i></a></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body> 
+</html>
