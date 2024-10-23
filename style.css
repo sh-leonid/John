@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  scroll-behavior: smooth;
+}
+body {
+  background: #000;
+}
+.cont {
+  position: relative;
+  width: 375px;
+  height: 2165px;
+  background: #fff;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline: 15px;
+}
+i {
+  font-size: 30px;
+  cursor: pointer;
+}
+i:hover{
+  outline: 2px dashed #EC7C26;
+}
+.fa-circle-down:hover {
+  outline: none;
+}
+.down {
+  position: absolute;
+  left: 15px;
+}
+.down a {
+  color: #000;
+}
+.nav {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 100vh;
+  background: #123456;
+  list-style-type: none;
+}
+.nav *{
+  cursor: pointer;
+}
+.nav *:hover{
+  color: #308446;
+}
+.white-icon {
+  color: #fff;
+}
+.nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.img-wrapper {
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 33px auto;
+}
+.john {
+  width: 170px;
+}
+.intro {
+  font-family: Heebo;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 43px;
+}
+.des {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: center;
+  padding-inline: 24px;
+  margin-top: 21px;
+}
+.button {
+  width: 208px;
+  height: 47px;
+  display: block;
+  margin: 0 auto;
+  background: #FF6464;
+  color: white;
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  text-align: center;
+  margin-top: 27px;
+  border: none;
+}
+.posts {
+  width: 375px;
+  height: 647px;
+  background:#EDF7FA;
+  margin-top: 53px;
+}
+.rp {
+  padding-inline: 135px;
+  height: 60px;
+  width: 100%;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243D;
+}
+.post1 {
+  height: 266px;
+  width: 354px;
+  background: #FFFFFF;
+  margin-left: 11px;
+}
+.post2 {
+  height: 266px;
+  width: 354px;
+  margin-top: 17px;
+  background: #FFFFFF;
+  margin-left: 11px;
+}
+.n1 {
+  width: 327px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 6px;
+  padding: 12px;
+  color: #21243D;
+}
+.n2 {
+  width: 327px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 6px;
+  padding: 12px;
+  color: #21243D;
+}
+.d1 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  width: 89px;
+  height: 24px;
+  margin-top: 22px;
+  margin-left: 19px;
+  color: #21243D;
+}
+.d2 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  width: 89px;
+  height: 24px;
+  margin-top: 22px;
+  margin-left: 19px;
+  color: #21243D;
+}
+.p1 {
+  height: 21px;
+  margin-left: 126px;
+  margin-top: -23px;
+  border: 1px;
+  color: #21243D;
+}
+.dp1 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 145px;
+  margin-top: -22px;
+  color: #21243D;
+}
+.p2 {
+  height: 21px;
+  margin-left: 126px;
+  margin-top: -23px;
+  border: 1px;
+  color: #21243D;
+}
+.dp2 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  margin-left: 145px;
+  margin-top: -22px;
+  color: #21243D;
+}
+.desp1 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  height: 117px;
+  width: 314px;
+  margin-left: 20px;
+  margin-top: 19px;
+  color: #21243D;
+}
+.desp2 {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  height: 117px;
+  width: 314px;
+  margin-left: 20px;
+  margin-top: 19px;
+  color: #21243D;
+}
+.fw {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  height: 60px;
+  width: 124px;
+  margin-left: 126px;
+}
+.btc {
+  width: 339px;
+  height: 230px;
+  border-radius: 6px;
+  margin-left: 18px;
+}
+.dd {
