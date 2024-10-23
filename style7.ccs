@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    scroll-behavior: smooth;
+  }
+  body {
+    background: #000;
+  }
+  .cont {
+    position: relative;
+    width: 375px;
+    height: 1637px;
+    background: #FFFFFF;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 15px;
+  }
+  .nav {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 100vh;
+    background: #123456;
+    list-style-type: none;
+  }
+  .nav *{
+    cursor: pointer;
+  }
+  .nav *:hover{
+    color: #308446;
+  }
+  .white-icon {
+    color: #fff;
+  }
+  .nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .fa-circle-chevron-left {
+    text-decoration: none;
+    color: #000;
+    margin-left: 0px;
+    margin-top: 1px;
+  }
+  .fa-bars {
+    margin-left: 288.5px;
+  }
+  i {
+    font-size: 30px;
+  }
+  i:hover{
+    outline: 2px dashed #EC7C26;
+  }
+  .fa-circle-down:hover {
+    outline: none;
+  }
+  .down {
+    margin-left: 15px;
+  }
+  .down a {
+    color: #000;
+  }
+  .name {
+    height: 80px;
+    width: 339px;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #21243D;
+    margin-left: 18px;
+  }
+  .y {
+    height: 25px;
+    width: 62px;
+    background: #FF7C7C;
+    border-radius: 16px;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 24px;
+    margin-left: 18px;
+  }
+  .topic {
+    width: 262px;
+    height: 52px;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.44px;
+    text-align: left;
+    color: #21243D;
+    margin-left: 95px;
+    margin-top: -30px;
+  }
+  .amet1 {
+    width: 339px;
+    height: 96px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    color: #000000;
+    margin-left: 18px;
+    margin-top: 24px;
+  }
+  .cf {
+    width: 339px;
+    height: 256px;
+    margin-top: 12px;
+    margin-left: 9px;
+  }
+  .h1 {
+    width: 119px;
+    height: 60px;
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    color: #21243D;
+    margin-top: 23px;
+    margin-left: 18px;
+  }
+  .h2 {
+    width: 92px;
+    height: 60px;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    color: #21243D;
+    margin-top: -15px;
+    margin-left: 18px;
+  }
+  .amet2 {
+    width: 339px;
+    height: 96px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    color: #000000;
+    margin-left: 18px;
+    margin-top: 5px;
+  }
+  .car {
+    width: 339px;
+    height: 256px;
+    margin-top: 12px;
+    margin-left: 9px;
+  }
+  .set {
+    width: 339px;
+    height: 256px;
+    margin-top: 12px;
+    margin-left: 9px;
+  }
+  .footer {
+    height: 182px;
+    width: 375px;
+    position: absolute;
+    top: 1455px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .facebook {
+    width: 30px;
+    height: 30px;
+  }
+  .insta {
+    width: 30px;
+    height: 30px;
+  }
+  .twitter {
+    width: 30px;
+    height: 30px;
+  }
+  .in {
+    width: 30px;
+    height: 30px;
+  }
+  .brand {
+    width: 238px;
+    height: 30px;
+    display: flex;
+    gap: 35px;
+    margin-left: 72px;
+  }
+  .cr {
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    margin-left: -5px;
+    color: #21243D;
+    width: 222px;
+    height: 21px;
+    margin-left: 74px;
+  }
+  .fa-circle-up:hover {
+    outline: none;
+  }
+  .up {
+    margin-left: 15px;
+    margin-top: -40px;
+  }
+  .up a {
+    color: #000;
+  }
