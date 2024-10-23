@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+</head> 
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+
+<div class="cont">
+  <div class="header">
+    <div class="down"><a href="#lo"><i class="fa-solid fa-circle-down"></i></a></div>
+    <i class="fa-solid fa-bars" id="ho" onclick="showMenu()"></i>
+    <ul class="nav">
+      <i class="fa-solid fa-x white-icon" onclick="closeMenu()"></i>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="index1.html">Our Blog</a></li>
+      <li><a href="index2.html">Our Work</a></li>
+    </ul>
+  </div>
+  <div class="blog">Blog</div>
+  <div class="news1">
+    <div class="topic1">UI Interactions of the week</div>
+    <div class="date1">12 Feb 2019</div>
+    <div class="st1">|</div>
+    <div class="author1">Express, Handlebars</div>
+    <div class="des1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    <div class="ul1">_______________________________________________</div>
+  </div>
+  <div class="news2">
+    <div class="topic2">UI Interactions of the week</div>
+    <div class="date2">12 Feb 2019</div>
+    <div class="st2">|</div>
+    <div class="author2">Express, Handlebars</div>
+    <div class="des2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    <div class="ul2">_______________________________________________</div>
+  </div>
+  <div class="news3">
+    <div class="topic3">UI Interactions of the week</div>
+    <div class="date3">12 Feb 2019</div>
+    <div class="st3">|</div>
+    <div class="author3">Express, Handlebars</div>
+    <div class="des3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    <div class="ul3">_______________________________________________</div>
+  </div>
+  <div class="news4">
+    <div class="topic4">UI Interactions of the week</div>
+    <div class="date4">12 Feb 2019</div>
+    <div class="st4">|</div>
+    <div class="author4">Express, Handlebars</div>
+    <div class="des4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    <div class="ul4">_______________________________________________</div>
+  </div>
+  <div class="footer">
+    <div class="brand">
+       <div class="facebook">
+         <img class="facebook" src="https://seeklogo.com/images/F/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt="">
+       </div>
+      <div class="insta">
+        <img class="insta" src="https://seeklogo.com/images/I/instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png" alt="">
+      </div>
+      <div class="twitter">
+        <img class="twitter" src="https://seeklogo.com/images/T/twitter-logo-1DEF94C339-seeklogo.com.png" alt="">
+      </div>
+      <div class="in">
+        <img class="in" src="https://seeklogo.com/images/L/linkedin-black-icon-logo-ECC426C572-seeklogo.com.png" alt="">
+      </div>
+    </div>
+    <div class="cr" id="lo">Copyright ©2020 All rights reserved </div>
+    <div class="up"><a href="#ho"><i class="fa-solid fa-circle-up"></i></a></div>
+  </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body> 
+</html>
